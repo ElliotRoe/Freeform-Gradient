@@ -5,9 +5,9 @@ from scipy.spatial import distance
 w, h = 512, 512
 data = np.zeros((h, w, 3), dtype=np.uint8)
 k = 0
-point1 = (200, 10, 0)
+point1 = (256, 250, 0)
 color1 = (242, 7, 50)
-point2 = (400, 300, 0)
+point2 = (256, 260, 0)
 color2 = (7, 3, 140)
 
 for i in range(w):
